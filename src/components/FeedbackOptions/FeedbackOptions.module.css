@@ -1,0 +1,19 @@
+.btn {
+  cursor: pointer;
+  outline-offset: 2px;
+  outline-color: antiquewhite;
+  border: none;
+  background-color: rgb(178, 227, 255);
+  border-radius: 5px;
+  padding: 5px 10px;
+  width: 60px;
+  transition: background-color 0.3s;
+}
+.btn:not(:last-child) {
+  margin-right: 10px;
+}
+.btn:hover,
+.btn:focus {
+  background-color: rgb(43, 164, 235);
+  
+}
